@@ -7,13 +7,13 @@ abstract class Figure  //creating an abstract class called figure...
     { }
     public Figure(int dimension)
     {
-        Dimension = dimension;  //dimension assignment... 
+        Dimension = dimension; 
     }
 
     public abstract double Area();
     public abstract double Perimeter();
 }
-class Circle: Figure  //creating a cricle figure... 
+class Circle: Figure 
 {
         public Circle()
         {}
