@@ -7,7 +7,7 @@ abstract class Figure  //creating an abstract class called figure...
     { }
     public Figure(int dimension)
     {
-        Dimension = dimension;
+        Dimension = dimension;  //dimension assignment... 
     }
 
     public abstract double Area();
