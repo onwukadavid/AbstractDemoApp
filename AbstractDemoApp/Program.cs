@@ -1,6 +1,6 @@
 ﻿using System;
 
-abstract class Figure
+abstract class Figure  //creating an abstract class called figure...
 {
     protected int Dimension;
     public Figure()
@@ -13,7 +13,7 @@ abstract class Figure
     public abstract double Area();
     public abstract double Perimeter();
 }
-class Circle: Figure
+class Circle: Figure  //creating a cricle figure... 
 {
         public Circle()
         {}
